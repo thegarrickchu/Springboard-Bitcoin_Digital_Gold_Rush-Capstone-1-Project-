@@ -1,0 +1,46 @@
+1. Capstone Project Ideas (November 2, 2017)
+
+Idea #1:  "The luck of the draw" - Analyzing Powerball Lottery Data
+
+Problem: With increasingly larger jackpot records, there have been stories of insiders cheating and using the system to their advantage.  
+As a result, is the lottery truly random or do we have a better chance with certain numbers? How can we use our findings to increase
+"fairness" and increase the amount of participation to help our schools.
+
+Client(s)/User(s): Participating state lottery authorities.  The analysis, insights and data could help lottery authorities promote their
+product, enhance the public perception of fairness (dare I say... make it seem like ones odds are better).  The end result is to increase 
+the financial benefit to the communities the state lotteries support.
+
+Data: Historical powerball drawing data, historical jackpot size data and winnings data.
+
+
+Idea #2: California Bay Area Housing
+
+Problem:  Bay area home/real estate prices and affordability have reached levels that have become out of reach for many. I aim to look at the 
+data and perhaps in the context of multiple dimensions of factors (economic/job growth, correlated asset prices, census data) to determine if 
+the current trends are justified by structural flux as opposed to speculation that could lead to our next bubble.  The objective of the idea is 
+not to predict what will happen but to analyze/visualize the driving factors. 
+
+Client(s)/User(s): Potential and current homeowners, urban planning committees, real estate companies (brokerages and sites like Zillow/Trulia/Redfin), 
+mortgage industry, economists (SF Fed Bank).  
+
+Data: Fed Housing Data: https://catalog.data.gov/dataset/housing-affordability-data-system-hads
+Zillow HVI: https://www.zillow.com/research/data/#median-home-value
+
+
+Idea #3: Student Debt Bubble - Fact or Fiction?
+
+Problem: Media outlets seem to assert that a student loan bubble is on the horizon as education costs (and thus student debt) rises in lockstep 
+with default rates.  The changing landscape of the labor market and social activism seems to also indicate systematic problems with college 
+graduates as they enter the workforce.  
+
+Client(s)/User(s): Economists, student loan services, higher education organizations. 
+
+Data: Student Loan Data: https://catalog.data.gov/dataset/national-student-loan-data-system 
+
+
+Wish list ideas...
+- Something with bitcoin... perhaps analysis of overall ICOs.
+- Bay Area traffic patterns
+- Shareholder Ownership Changes (provide insight and analysis of shareholder activity of a particular stock.  client: investor relations 
+  officers, C-suite management, Board of Directors.  data: 13F filings, trading data... but need DTC data (non-public))
+
