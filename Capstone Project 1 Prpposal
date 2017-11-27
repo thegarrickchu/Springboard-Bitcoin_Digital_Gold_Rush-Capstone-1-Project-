@@ -1,0 +1,69 @@
+Springboard Data Science Track – Capstone Project 1: Proposal
+
+
+1. What is the problem you want to solve?
+2. Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+3. What data are you going to use for this? How will you acquire this data?
+4. In brief, outline your approach to solving this problem (knowing that this might change later).
+5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+
+What is the problem you want to solve?
+
+The meteoric rise of Bitcoin over the past several months (and particularly in the past few weeks) have spurred the topic around cryptocurrencies from side-room conversation to the forefront of public discourse.  Since its inception in 2009, Bitcoin has appreciated nearly 5000% from a market cap of $1.5B (USD) to around $7.5B in recent trading.  This places Bitcoin's market cap even higher than PayPal, a more ubiquitous and long-standing online payment service. 
+
+This ascent in valuation and the increasing embrace of the underlying blockchain technology have forced experts of traditional economics, currency and finance to contemplate the impact and adoption of cryptocurrencies in their respective domains.  With respect to traditional investment and portfolio management, I intend to investigate the following key questions:
+	
+1) Has the trading dynamics of Bitcoin (and other recent alternatives such as Etherum) changed and in what ways?  
+2) With respect to financial performance or portfolio management tool, is there any correlation or relationship to traditional asset types or products?  
+For example, correlation in performance to the broader stock market, certain indices, or traditional volatility strategies. I also intend to assess these types of relationships via financial performance (time-series), application and adoption as currency, etc.
+3) Is there evidence that Bitcoin is increasingly becoming a medium of exchange or trade?
+
+Analyzing the above questions will lead me to determine whether Bitcoins current and projected levels are the result of public speculation or increasing adoption as a means of exchange and storage of value.  As a result of this determination, we can then assess the viability in the areas of traditional finance and investment. 
+
+
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+
+The analysis will be primarily aimed at institutional investors (will asset/portfolio managers need to begin investing in Bitcoin/cryptocurrencies for diversification for clients?).  The analysis will then have a cascading effect to retail investors (who have yet to incorporate cryptocurrencies to their investment strategies) and to the financial institutions that support both retail and institutional investors.  
+
+What data are you going to use for this? How will you acquire this data?
+
+For analysis of transaction level data:
+	Quandl's Blockchain data set: https://www.quandl.com/data/BCHAIN-Blockchain
+		Initial sub-sets include: “Bitcoin My Wallet Number of Users”
+					“Bitcoin My Wallet Number of Transaction Per Day”
+					“Bitcoin Average Block Size”
+					“Bitcoin Cost % of Transaction Volume”
+					“Bitcoin Market Price USD”
+					“Bitcoin Number of Transaction per Block”
+					“Bitcoin Number of Unique Bitcoin Addresses Used”
+					“Bitcoin Total Number of Transactions”
+					“Bitcoin Trade Volume vs Transaction Volume Ratio”
+	
+For analysis relative to capital markets:
+	S&P 500 Volatility Index Historical Data: 
+	http://www.cboe.com/products/vix-index-volatility/vix-options-and-futures/vix-index/vix-historical-data 
+ 	S&P 500 Index Returns:
+	https://www.quandl.com/data/YALE/SP_RSPC-U-S-Stock-Price-Data-Return-on-S-P-Composite 
+	Oil prices (from OPEC):
+	https://www.quandl.com/data/OPEC-Organization-of-the-Petroleum-Exporting-Countries
+
+
+
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+The intended finding is if Bitcoin transactions have been largely driven as a speculative investment by wallet holders or rather because it is increasingly being adopted as a means of currency (increasing efficacy as a means of exchange).  To accomplish this, I will be analyzing specific trends in Bitcoin such as the following:
+	-Bitcoin Trading (including trends in transaction size, daily volume, bid/ask spread as a proxy 		for liquidity.
+	-Trends in Bitcoin adoption as a medium of exchange (investigating trends in wallet behavior
+	which can indicate trading or transactions, trends in merchant usage and adoption, emergence of 	other crytpocurrencies)
+	-Relationship of Bitcoin performance/valuation to other asset classes or economic factors.
+With these themes to explore, I intend to following the below timeline:
+	Week 1: Gather and download data.  “Sniff-test” for robustness, completeness, ease of 	manipulation for analysis.  Seek alternatives if necessary.
+	Week 2 & 3: Clean and Wrangle Data for manipulation and analysis.  Join datasets as needed.
+	Week 4 & 5: Explore data and create visualizations/plots for further analysis and presentation.
+	Week 6: Create/finalize presentation and write-ups/deliverables.  
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+Intended Deliverables include:
+Code
+Introduction and background to accompany code
+Deck or short-form white paper format for with findings and analysis (modeling similar to “thought-leader” white papers such as the Capital Group's here: https://www.americanfunds.com/content/dam/cgc/shared-content/documents/articles/MFGEBR-075-0417P.pdf)
