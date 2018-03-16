@@ -1,0 +1,11 @@
+Links to data sets:
+
+1. Quandl (requires free registration): https://www.quandl.com/data/BCHAIN-Blockchain (For Bitcoin metrics in GC_BTC_Capstone1_EDA.ipynb) and https://www.quandl.com/data/BITFINEX-Bitfinex (for cryptocurrency data in GC_Crypto_USD_Values_EDA.ipynb)
+
+2. Blockchain.info (for BTC_Price_Forecasting_Prophet.ipynb and GC_BTC_Financial_EDA.ipynb)
+
+3. S&P/Case-Shiller U.S. National Home Price Index (CSUSHPINSA) for GC_BTC_Financial_EDA.ipynb: https://fred.stlouisfed.org/series/CSUSHPINSA
+
+4. Volatility Index Data: http://www.cboe.com/products/vix-index-volatility/vix-options-and-futures/vix-index/vix-historical-data
+
+5. Nasdaq Composite Index Data: https://finance.yahoo.com/quote/%5EIXIC/history?p=%5EIXIC 
